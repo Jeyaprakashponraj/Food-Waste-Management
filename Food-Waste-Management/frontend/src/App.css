@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navbar */
+.brand {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+}
+
+.navLink {
+  padding-left: 50px !important;
+  font-size: 20px;
+}
+
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 21px;
+  margin-left: 50px;
+  font-family: 'DM Serif Display', serif;
+}
+
+.nav a.active {
+  color: rgb(3, 139, 250);
+}
+
+/* footer */
+.f1 {
+  text-decoration: underline;
+}
+
+.list-unstyled li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Home.js */
+.background {
+  background-image: url(./Images/HomeImg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 110vh;
+  opacity: 0.8;
+}
+
+.hunger {
+  font-size: 90px;
+  font-weight: 900;
+}
+
+.hunger span {
+  font-weight: 400;
+}
+
+.donate {
+  font-size: 80px;
+  color: rgba(92, 216, 34, 0.726);
+}
+
+.donate span {
+  color: black;
+}
+
+.content {
+  padding-left: 80px;
+  padding-top: 20px;
+
+}
+
+.content1 {
+  margin-top: 100px;
+  background-color: rgba(92, 216, 34, 0.726);
+  width: 900px;
+  height: 130px;
+  padding-left: 50px;
+  padding-top: 38px;
+}
+
+
+.change {
+  margin-top: 70px;
+  margin-left: 84px;
+  font-size: 50px;
+  font-weight: 700;
+  background-color: rgba(196, 150, 24, 0.466);
+  width: 512px;
+  height: 90px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.change span {
+  color: rgb(196, 150, 24);
+}
+
+.life {
+  margin: 80px 0;
+  font-size: 27px;
+  line-height: 45px;
+}
+
+.life p {
+  word-spacing: 7px;
+}
+
+.counts {
+  margin-left: 140px;
+  text-align: center;
+}
+
+.counts h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.count {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.count h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+/* About */
+.about {
+  background-image: url(./Images/AboutImg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  opacity: 0.8;
+}
+
+.AboutCon {
+  position: absolute;
+  background-color: rgb(65, 158, 123);
+  width: 350px;
+  height: 90px;
+  margin-top: 128px;
+  margin-left: 570px;
+  opacity: 0.9;
+}
+
+.org {
+  position: relative;
+  top: 80px;
+  left: 530px;
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+
+.our {
+  font-weight: 700;
+}
+
+.mission {
+  width: 600px;
+  height: 100vh;
+  border-radius: 50%;
+
+}
+
+.missionp {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.visionp {
+  font-size: 20px;
+  line-height: 40px;
+  padding-left: 70px;
+  text-align: center;
+}
+
+
+/* Information.js */
+.info {
+  background-image: url(./Images/info.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  opacity: 0.8;
+  margin-bottom: 70px;
+}
+
+.infor {
+  position: absolute;
+  background-color: rgba(85, 190, 37, 0.568);
+  width: 350px;
+  height: 90px;
+  margin-top: 128px;
+  margin-left: 500px;
+  opacity: 0.9;
+}
+
+.info1 {
+  position: relative;
+  text-align: center;
+  top: 80px;
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(12, 12, 12);
+}
+
+.meal {
+  font-weight: 700;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  background-color: rgba(165, 42, 42, 0.308);
+  height: 25px;
+}
+
+.information {
+  text-align: center;
+
+}
+
+.quotes {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.don {
+  margin-top: 100px;
+}
+
+.con {
+  margin: 100px 0;
+}
+
+/* signup */
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.error-msg {
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+.signup-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Contact.js */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #383838;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+/* admin.js */
+.form-container {
+  width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #0e0d0d;
+  border-radius: 5px;
+}
+
+.do {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
